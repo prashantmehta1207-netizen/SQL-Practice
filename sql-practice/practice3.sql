@@ -1,13 +1,13 @@
 //  Count number of students.
 
--- Create table
+ Create table
 CREATE TABLE students (
     id INT PRIMARY KEY,
     name VARCHAR(50),
     marks INT
 );
 
--- Insert data
+ Insert data
 INSERT INTO students (id, name, marks) VALUES
 (1, 'Rahul', 82),
 (2, 'Amit', 65),
@@ -15,7 +15,7 @@ INSERT INTO students (id, name, marks) VALUES
 (4, 'Neha', 74),
 (5, 'Karan', 88);
 
--- Count number of students
+
 SELECT COUNT(*) AS total_students FROM students;
 
 // output 
